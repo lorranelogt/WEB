@@ -231,6 +231,10 @@ footer {
         width: 300px;
     }
 
+    #container {
+        height: 100vh;
+    }
+
     #innerContainer {
         padding: 15px;
     }
