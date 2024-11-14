@@ -224,7 +224,6 @@ footer {
 @media(min-width: 1025px) and (max-width: 1366px) {
     body {
         max-height: 100vh;
-        position: relative;
     }
 
     #fortuneCookie {
@@ -240,7 +239,7 @@ footer {
     }
 
     footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100vw;
     }
