@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sugerir frases </title>
+    <link rel="stylesheet" href="3. suggest.css">
+</head>
+<body>
+
+    <div id="suggestionContainer">
+        <header>
+            <h1 id="headerText"> Sugerir uma Frase da Sorte </h1>
+        </header>
+
+        <section>
+            <article id="formContainer">
+                <p id="formDescription"> Tem uma frase da sorte que você acha legal? Compartilhe com a gente! </p>
+
+                <form>
+                    <label for="Name"> Seu Nome: </label>
+                    <input type="text" name="Name" required placeholder="Digite seu nome">
+
+                    <label for="Email"> Seu E-mail: </label>
+                    <input type="email" name="Email" required placeholder="Digite seu e-mail">
+
+                    <label for="Message"> Sua Frase da Sorte: </label>
+                    <textarea name="Message" rows="4" maxlength="125" required placeholder="Digite sua frase da sorte..."></textarea>
+
+                    <button type="submit" id="submitButton"> Enviar Sugestão </button>
+                </form>
+
+                <div id="successMessage">
+                    <p> Obrigado por sua sugestão! A sua frase foi enviada com sucesso. </p>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <p> Copyright &copy; 2024, Marcus Filipe Malek & Lorrane Goulart </p>
+        </footer>
+    </div>
+
+<script src="3. suggest.js"></script>
+</body>
+</html>
